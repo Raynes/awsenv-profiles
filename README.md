@@ -18,7 +18,7 @@ to switch AWS profiles!
 ## Usage
 
 ```
-pip install awsenv
+pip install awsenv-profiles
 ```
 
 This will install a small Python executable, `awsenvp`, and a bash script,
@@ -58,3 +58,8 @@ appropriately. Since the output of `awsenv.sh` is always going to be used with
 
 The idea here is that since bash scripts, unless sourced, cannot export environment
 variables to the parent shell, `eval` is necessary.
+
+## Why the name?
+
+I named it awsenv originally, but needed to change the package name because
+I didn't realize it was taken on pypi.
